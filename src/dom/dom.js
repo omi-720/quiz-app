@@ -25,7 +25,7 @@ export function showQuestion(){
     })
     getProgress()
 }
-
+//hello
 export function getProgress(){
     const {score,total}= getScore()
     quizCard.querySelector("#progress").textContent = `Score: ${score} / Total: ${total}`
